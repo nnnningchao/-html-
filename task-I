@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>九宫格</title>
+	<style type="text/css">
+		.line2{
+			clear: left;
+		}
+		.line3{
+			clear: left;
+		}
+		.square{
+			background: yellow;
+			width: 28vw;
+			height: 28vw;
+			margin-top: 1.5vw;
+			margin-left: 1.5vw;
+			border: 0.1vw;
+			border-radius: 4vw;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="line1">
+		    <div class="square"></div>
+            <div class="square"></div>
+		    <div class="square"></div>
+		</div>
+		<div class="line2">
+		    <div class="square"></div>
+		    <div class="square"></div>
+		    <div class="square"></div>
+		</div>
+		<div class="line3">
+		    <div class="square"></div>
+		    <div class="square"></div>
+		    <div class="square"></div>
+		</div>
+	</div>
+</body>
+</html>
